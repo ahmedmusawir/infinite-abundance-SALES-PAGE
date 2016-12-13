@@ -5943,7 +5943,7 @@ body {
   position: relative;
   z-index: 1; }
   .section-one .text-block {
-    margin-top: 18%;
+    margin-top: 15%;
     padding: 8rem;
     background-color: rgba(0, 0, 0, 0.2); }
     .section-one .text-block h1 {
@@ -6068,6 +6068,14 @@ body {
     margin-top: 10%;
     margin-bottom: 5%;
     padding: 5%; }
+    .section-six .text-block .leisa-bio-1 {
+      padding-top: 3rem;
+      padding-right: 3rem;
+      padding-bottom: 2rem; }
+    .section-six .text-block .leisa-bio-2 {
+      padding-top: 3rem;
+      padding-left: 3rem;
+      padding-bottom: 2rem; }
     .section-six .text-block h1 {
       font-size: 5rem;
       color: #9a9a9a;
@@ -6079,21 +6087,122 @@ body {
       padding-bottom: 3rem;
       font-weight: 300; }
 
-.section-seven {
-  min-height: 600px;
-  border: 10px solid #ade55d; }
+.section-seven .text-block {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 5%; }
+  .section-seven .text-block .chakra {
+    padding-top: 3rem;
+    padding-bottom: 4rem; }
+  .section-seven .text-block h1 {
+    font-size: 5rem;
+    color: #9a9a9a;
+    font-weight: 300;
+    padding-bottom: 3rem; }
+  .section-seven .text-block h3 {
+    font-size: 3rem;
+    color: #9a9a9a;
+    padding-bottom: 3rem; }
 
 .section-eight {
-  min-height: 600px;
-  border: 10px solid #b8e973; }
+  background: url(http://www.leisapeterson.com/wp-content/uploads/2016/07/panel-header-bg.jpg) center center fixed; }
+  .section-eight h1 {
+    padding-top: 6rem;
+    color: gray; }
+  .section-eight .text-block {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: white; }
+    .section-eight .text-block h1 {
+      font-size: 5rem;
+      color: #9a9a9a;
+      font-weight: 300;
+      padding-bottom: 3rem;
+      text-align: center; }
+    .section-eight .text-block h3 {
+      font-size: 3rem;
+      color: #9a9a9a; }
 
-.section-nine {
-  min-height: 600px;
-  border: 10px solid #c3ec89; }
+.section-nine .text-block {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding: 5%;
+  background-color: white; }
+  .section-nine .text-block .leisa-block-9 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+  .section-nine .text-block .seal {
+    padding-top: 5rem;
+    padding-bottom: 5rem; }
+  .section-nine .text-block a.btn {
+    margin-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2.5rem; }
+  .section-nine .text-block h1 {
+    font-size: 4.5rem;
+    color: white;
+    font-weight: 300;
+    padding: 5rem;
+    text-align: center;
+    background-color: #ade55d; }
+    .section-nine .text-block h1 .strike {
+      text-decoration: line-through; }
+    @media (max-width: 500px) {
+      .section-nine .text-block h1 {
+        padding: 2.5rem;
+        font-size: 3.5rem; } }
+  .section-nine .text-block h2 {
+    text-align: center;
+    color: gray;
+    padding-top: 3rem;
+    padding-bottom: 3rem; }
+  .section-nine .text-block h3 {
+    font-size: 3rem;
+    color: #9a9a9a;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    font-weight: 300; }
+    .section-nine .text-block h3 a {
+      font-weight: 500;
+      color: #efa31f; }
+      .section-nine .text-block h3 a:hover {
+        color: #cc870f; }
 
 .section-ten {
-  min-height: 600px;
-  border: 10px solid #cef09f; }
+  background: url(http://www.leisapeterson.com/wp-content/uploads/2016/08/skulls.jpg) center center fixed; }
+  .section-ten h1 {
+    padding-top: 6rem;
+    color: white;
+    text-align: center; }
+  .section-ten .text-block {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: white; }
+    .section-ten .text-block a.btn {
+      margin-top: 5rem;
+      padding-top: 2rem;
+      padding-bottom: 3rem;
+      font-size: 2.5rem; }
+    .section-ten .text-block h1 {
+      font-size: 4rem;
+      color: #9a9a9a;
+      font-weight: 300;
+      padding-bottom: 3rem;
+      text-align: center; }
+    .section-ten .text-block h3 {
+      font-size: 3rem;
+      color: #9a9a9a;
+      padding-bottom: 3rem; }
+    .section-ten .text-block h5 {
+      color: gray;
+      padding-top: 3rem;
+      text-align: center; }
 
 .section-eleven {
   min-height: 600px;
