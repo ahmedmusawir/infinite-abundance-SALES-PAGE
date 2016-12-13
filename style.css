@@ -5942,6 +5942,13 @@ body {
   background-position: center center;
   position: relative;
   z-index: 1; }
+  @media (max-width: 1024px) {
+    .section-one {
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/12/section-2-bg-1600x900.jpg") no-repeat top center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; } }
   .section-one .text-block {
     margin-top: 15%;
     padding: 8rem;
@@ -6009,6 +6016,13 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  @media (max-width: 1024px) {
+    .section-three {
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/12/section-5-bg-1600x1000.jpg") no-repeat center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; } }
   .section-three .text-block {
     padding-top: 5rem;
     margin-top: 5rem;
@@ -6033,96 +6047,117 @@ body {
 .section-four {
   text-align: center; }
   .section-four .text-block {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    padding: 5%; }
+    margin-top: 5%;
+    margin-bottom: 3%; }
     .section-four .text-block h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
       color: gray;
       font-weight: 300;
       padding-bottom: 2.5rem; }
     .section-four .text-block h3 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: #9a9a9a;
       padding-bottom: 3rem; }
 
 .section-five {
-  background-color: #b8e973; }
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/12/zen-green-bg.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (max-width: 1024px) {
+    .section-five {
+      background: url("http://www.leisapeterson.com/wp-content/uploads/2016/12/zen-green-bg.jpg") no-repeat top center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; } }
   .section-five .text-block {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    padding: 5%; }
+    margin-top: 5%;
+    margin-bottom: 3%; }
     .section-five .text-block h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       color: white;
       font-weight: 300;
       padding-bottom: 3rem; }
     .section-five .text-block h3 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: white;
       padding-bottom: 3rem; }
 
 .section-six {
   background: url(http://www.leisapeterson.com/wp-content/uploads/2016/06/block-4-bg.jpg); }
   .section-six .text-block {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    padding: 5%; }
+    margin-top: 5%;
+    margin-bottom: 3%; }
     .section-six .text-block .leisa-bio-1 {
       padding-top: 3rem;
       padding-right: 3rem;
       padding-bottom: 2rem; }
+      @media (max-width: 760px) {
+        .section-six .text-block .leisa-bio-1 {
+          width: 100%;
+          padding-left: 0;
+          padding-right: 0; } }
     .section-six .text-block .leisa-bio-2 {
       padding-top: 3rem;
       padding-left: 3rem;
       padding-bottom: 2rem; }
+      @media (max-width: 760px) {
+        .section-six .text-block .leisa-bio-2 {
+          width: 100%;
+          padding-left: 0;
+          padding-right: 0; } }
     .section-six .text-block h1 {
-      font-size: 5rem;
+      font-size: 4rem;
       color: #9a9a9a;
       font-weight: 300;
       padding-bottom: 3rem; }
     .section-six .text-block h3 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: #8d8d8d;
       padding-bottom: 3rem;
       font-weight: 300; }
 
 .section-seven .text-block {
   margin-top: 5%;
-  margin-bottom: 3%;
-  padding: 5%; }
+  margin-bottom: 3%; }
   .section-seven .text-block .chakra {
-    padding-top: 3rem;
-    padding-bottom: 4rem; }
+    padding-bottom: 3rem;
+    padding-left: 3rem; }
+    @media (max-width: 760px) {
+      .section-seven .text-block .chakra {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0; } }
   .section-seven .text-block h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #9a9a9a;
     font-weight: 300;
     padding-bottom: 3rem; }
   .section-seven .text-block h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #9a9a9a;
-    padding-bottom: 3rem; }
+    padding-bottom: 3rem;
+    font-weight: 300; }
 
 .section-eight {
   background: url(http://www.leisapeterson.com/wp-content/uploads/2016/07/panel-header-bg.jpg) center center fixed; }
-  .section-eight h1 {
+  .section-eight h1.title {
     padding-top: 6rem;
     color: gray; }
   .section-eight .text-block {
     margin-top: 3%;
-    margin-bottom: 5%;
-    padding: 5%;
-    background-color: white; }
+    margin-bottom: 3%; }
     .section-eight .text-block h1 {
-      font-size: 5rem;
+      font-size: 2.5rem;
       color: #9a9a9a;
-      font-weight: 300;
-      padding-bottom: 3rem;
+      font-weight: 600;
       text-align: center; }
     .section-eight .text-block h3 {
-      font-size: 3rem;
-      color: #9a9a9a; }
+      font-size: 2.5rem;
+      color: #9a9a9a;
+      font-weight: 300; }
 
 .section-nine .text-block {
   margin-top: 3%;
@@ -6130,19 +6165,25 @@ body {
   padding: 5%;
   background-color: white; }
   .section-nine .text-block .leisa-block-9 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+  .section-nine .text-block .divider-block-9 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     padding-left: 0;
     padding-right: 0;
     width: 100%; }
   .section-nine .text-block .seal {
-    padding-top: 5rem;
-    padding-bottom: 5rem; }
+    padding-top: 3rem;
+    padding-bottom: 2rem; }
   .section-nine .text-block a.btn {
     margin-top: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-    font-size: 2.5rem; }
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-size: 200%; }
   .section-nine .text-block h1 {
     font-size: 4.5rem;
     color: white;
@@ -6156,16 +6197,21 @@ body {
       .section-nine .text-block h1 {
         padding: 2.5rem;
         font-size: 3.5rem; } }
+  .section-nine .text-block h1.list-price {
+    background-color: white;
+    color: #5f9217;
+    border: 3px solid #ade55d;
+    font-size: 3rem; }
   .section-nine .text-block h2 {
     text-align: center;
     color: gray;
     padding-top: 3rem;
     padding-bottom: 3rem; }
   .section-nine .text-block h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #9a9a9a;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     font-weight: 300; }
     .section-nine .text-block h3 a {
       font-weight: 500;
@@ -6175,7 +6221,7 @@ body {
 
 .section-ten {
   background: url(http://www.leisapeterson.com/wp-content/uploads/2016/08/skulls.jpg) center center fixed; }
-  .section-ten h1 {
+  .section-ten h1.title {
     padding-top: 6rem;
     color: white;
     text-align: center; }
@@ -6185,31 +6231,24 @@ body {
     padding: 5%;
     background-color: white; }
     .section-ten .text-block a.btn {
-      margin-top: 5rem;
-      padding-top: 2rem;
-      padding-bottom: 3rem;
-      font-size: 2.5rem; }
+      margin-top: 2rem;
+      padding-top: 2.5rem;
+      padding-bottom: 3.5rem;
+      font-size: 200%; }
     .section-ten .text-block h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       color: #9a9a9a;
       font-weight: 300;
       padding-bottom: 3rem;
       text-align: center; }
     .section-ten .text-block h3 {
-      font-size: 3rem;
+      font-size: 2.2rem;
       color: #9a9a9a;
-      padding-bottom: 3rem; }
+      padding-bottom: 2rem; }
     .section-ten .text-block h5 {
       color: gray;
-      padding-top: 3rem;
-      text-align: center; }
-
-.section-eleven {
-  min-height: 600px;
-  border: 10px solid #d9f3b5; }
-
-.section-twelve {
-  min-height: 600px;
-  border: 10px solid #e5f7cb; }
+      padding-top: 2rem;
+      text-align: center;
+      font-size: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
